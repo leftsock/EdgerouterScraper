@@ -141,3 +141,8 @@ cat ~user/Src/EdgeRouter/Logs/latest
 systemctl reload edgerouter
 
 # repeat 4 verifications above
+
+
+# DISASTER RECOVERY INSTRUCTIONS
+## In case of disaster recovery, just scp the latest config to
+## /config/config.boot and reboot your (replacement) router!
